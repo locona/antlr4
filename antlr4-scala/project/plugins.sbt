@@ -1,5 +1,5 @@
 resolvers += Resolver.sonatypeRepo("snapshots")
-addSbtPlugin("org.scalameta" % "sbt-metals" % "0.7.6")
+addSbtPlugin("org.scalameta" % "sbt-metals" % "1.2.2")
 addSbtPlugin("ch.epfl.scala" % "sbt-bloop" % "1032048a")
 
 // For generating Lexer/Parser from ANTLR4 grammar (.g4)
